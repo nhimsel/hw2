@@ -79,5 +79,21 @@ int main()
         cout << "Stay indoors and relax." << endl;
     }
 
+    //Part 4
+
+    bool isCitizen = true;
+    int age = 20;
+    bool hasVoterID = true;
+
+    if (isCitizen && age>=18 && hasVoterID)
+    {  
+        cout << "You are eligible to vote!" << endl;
+    }
+
+    else
+    {
+        cout << "You are not eligible to vote." << endl;
+    }
+
     return 0;
 }
