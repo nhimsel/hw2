@@ -4,12 +4,11 @@ using namespace std;
 
 int main()
 {
+    //Part 1
+    
     bool isSunny = true;
     bool isRaining = false;
     bool isWeekend = true;
-    bool haveUmbrella = true;
-    bool isGoingOutside = true;
-    bool isTired = false;
 
     cout << "Sunny? " << isSunny << endl;
     cout << "Raining? " << isRaining << endl;
@@ -18,6 +17,12 @@ int main()
     {
         cout << "It's the weekend!" << endl;
     }
+
+    //Part 2
+
+    bool haveUmbrella = true;
+    bool isGoingOutside = true;
+    bool isTired = false;
 
     if (isRaining && haveUmbrella)
     {
